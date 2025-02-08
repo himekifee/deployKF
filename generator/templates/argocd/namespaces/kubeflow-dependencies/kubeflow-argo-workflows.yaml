@@ -3,5 +3,5 @@ kind: Namespace
 metadata:
   name: {{< .Values.kubeflow_dependencies.kubeflow_argo_workflows.namespace | quote >}}
   labels:
-    istio-injection: enabled
+    istio-injection: disabled
     deploykf.github.io/inject-root-ca-cert: enabled

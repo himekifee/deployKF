@@ -3,5 +3,5 @@ kind: Namespace
 metadata:
   name: {{< .Values.deploykf_core.deploykf_auth.namespace | quote >}}
   labels:
-    istio-injection: enabled
+    istio-injection: disabled
     deploykf.github.io/inject-root-ca-cert: enabled
